@@ -10,17 +10,33 @@ html{
 }
 
 
-.image{  
-    height: 60px;
-}
 .nav-top{
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
+    background-color: rgb(12, 12, 12);
+}
+
+.logo .image{  
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo .image:hover{
+    border: white solid 1px;
 }
 
 .location{
     display: flex;
     padding: 10px;
+    color: white;
+}
+
+.location:hover{
+    border: white solid 1px;
 }
 
 .loc-symbol{
@@ -78,6 +94,10 @@ html{
     display: flex;
 }
 
+.lang:hover{
+    border: white solid 1px;
+}
+
 .lang img{
     height: 25px;
     width: 20px;
@@ -89,15 +109,22 @@ html{
     align-items: center;
     font-size: smaller;
     font-weight: bold;
+    color: white;
 }
 
 .lang i{
     display: flex;
     align-items: center;
+    color: gray;
 }
 
 .accounts{
     padding: 10px;
+    color: white;
+}
+
+.accounts:hover{
+    border: white solid 1px;
 }
 
 .accounts .name{
@@ -111,12 +138,18 @@ html{
 
 .accounts .acc-lis .drop-arrow{
     padding-left: 2px;
+    color: gray;
 }
 
 .orders{
     display: flex;
     flex-direction: column;
     padding: 10px;
+    color: white;
+}
+
+.orders:hover{
+    border: white solid 1px;
 }
 
 .orders .order-return{
@@ -132,6 +165,11 @@ html{
     display: flex;
     padding: 10px;
     align-items: center;
+    color: white;
+}
+
+.cart:hover{
+    border: white solid 1px;
 }
 
 .cart .cart-items{
