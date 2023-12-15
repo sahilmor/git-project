@@ -9,20 +9,27 @@ html{
     width: 100%;
 }
 
+header{
+    /* display: flex; */
+}
+
 
 .nav-top{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: rgb(12, 12, 12);
+    border: 2px solid red;
 }
 
 .logo .image{  
+    position: relative;
     height: 60px;
     width: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px solid green;
 }
 
 .logo .image:hover{
@@ -33,6 +40,7 @@ html{
     display: flex;
     padding: 10px;
     color: white;
+    border: 2px solid green;
 }
 
 .location:hover{
@@ -42,7 +50,8 @@ html{
 .loc-symbol{
     display: flex;
     position: relative;
-    top: 10px;
+    top: 11px;
+    padding-right: 5px;
     /* margin-top: 10px; */
 }
 
@@ -63,25 +72,28 @@ html{
 .search-bar{
     display: flex;
     padding: 10px;
+    /* color: white; */
+    border: 2px solid green;
 }
 
 #List{
-    height: 30px;
+    height: 40px;
     width: 40px;
     border-right: none;
     border-radius: 5px 0px 0px 5px;
+    /* border: 2px solid green; */
 }
 
 #search-box{
     border: 1px solid black;
-    height: 30px;
-    width: 220px;
+    height: 40px;
+    width: 550px;
 }
 
 .search-icon{
     display: flex;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     background-color: goldenrod;
     justify-content: center;
     align-items: center;
@@ -92,6 +104,8 @@ html{
 .lang{
     padding: 10px;
     display: flex;
+    /* color: white; */
+    border: 2px solid green;
 }
 
 .lang:hover{
@@ -101,6 +115,7 @@ html{
 .lang img{
     height: 25px;
     width: 20px;
+    /* color: white; */
 }
 
 .lang span{
@@ -121,6 +136,7 @@ html{
 .accounts{
     padding: 10px;
     color: white;
+    border: 2px solid green;
 }
 
 .accounts:hover{
@@ -146,6 +162,7 @@ html{
     flex-direction: column;
     padding: 10px;
     color: white;
+    border: 2px solid green;
 }
 
 .orders:hover{
@@ -166,6 +183,7 @@ html{
     padding: 10px;
     align-items: center;
     color: white;
+    border: 2px solid green;
 }
 
 .cart:hover{
@@ -181,9 +199,20 @@ html{
 
 
 
+
+
+
+
+
 .nav-bottom{
     padding: 2px;
     /* margin-top: 5px; */
     background-color: rgb(197, 197, 197);
     text-align: center;
+}
+
+
+@media screen and (max-width : 1275px){
+
+    
 }

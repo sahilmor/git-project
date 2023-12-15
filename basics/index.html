@@ -1,65 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header>
-        <div class="nav-top">
-            <div class="logo">
-                <img class="image" src="Starbucks_Corporation_Logo_2011.svg-e1657703028844.avif" alt="starbuck">
+      <div class="nav-top">
+        <div class="logo">
+          <img class="image" src="Starbucks_Corporation_Logo_2011.svg-e1657703028844.avif" alt="starbuck"/>
+        </div>
+        <div class="location">
+          <div class="loc-symbol">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="loc-data">
+            <span class="dlv">Delivered to Sahil</span>
+            <span class="loc">Sonipat 131301</span>
+          </div>
+        </div>
+        <div class="search-bar">
+          <select name="All" id="List">
+            <option value="all-category" selected>All Category</option>
+            <option value="bestseller">Best Seller</option>
+            <option value="drinks">Drinks</option>
+            <option value="food">Food</option>
+          </select>
+          <input type="search" name="search-bar" id="search-box" placeholder="Search Starbuck.in"/>
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="lang">
+          <img src="india.png" alt="img" />
+          <span>EN</span>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="accounts">
+            <div class="name"><span>Hello Sahil</span></div>
+          <div class="acc-lis"><span>Account & Lists</span><i class="fa-solid fa-caret-down drop-arrow"></i></div>
+        </div>
+        <div class="orders">
+            <span class="order-return">Returns</span>
+            <span class="order-list">& Orders</span>
+        </div>
+        <div class="cart">
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
             </div>
-            <div class="location">
-                <div class="loc-symbol">
-                    <i class="fa-solid fa-location-dot"></i>
-                </div>
-                <div class="loc-data">
-                    <span class="dlv">Delivered to Sahil</span>
-                    <span class="loc">Sonipat 131301</span>
-                </div>
-            </div>
-            <div class="search-bar">
-                <select name="All" id="List">
-                    <option value="all-category" selected>All Category</option>
-                    <option value="bestseller">Best Seller</option>
-                    <option value="drinks">Drinks</option>
-                    <option value="food">Food</option>
-                </select>
-                <input type="search" name="search-bar" id="search-box" placeholder="Search Starbuck.in">
-                <div class="search-icon">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-            </div>
-            <div class="lang">
-                <img src="india.png" alt="img">
-                <span>EN</span>
-                <i class="fa-solid fa-caret-down"></i>
-            </div>
-            <div class="accounts">
-                <div class="name"><span>Hello Sahil</span></div>
-              <div class="acc-lis"><span>Account & Lists</span><i class="fa-solid fa-caret-down drop-arrow"></i></div>
-            </div>
-            <div class="orders">
-                <span class="order-return">Returns</span>
-                <span class="order-list">& Orders</span>
-            </div>
-            <div class="cart">
-                <div class="cart-icon">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <div class="cart-items">
-                    <span>Cart</span>
-                </div>
+            <div class="cart-items">
+                <span>Cart</span>
             </div>
         </div>
-        <div class="nav-bottom">
-            <h6 class="msg">Shop now at 40% off. Use credit card and claim more 10% off.</h6>
-        </div>
+
+
+      </div>
+      <div class="nav-bottom">
+        <h6 class="msg">
+          Shop now at 40% off. Use credit card and claim more 10% off.
+        </h6>
+      </div>
     </header>
-</body>
+  </body>
 </html>
